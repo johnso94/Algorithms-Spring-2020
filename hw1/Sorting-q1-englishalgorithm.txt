@@ -1,0 +1,4 @@
+This sorting algorithm would split the list into three seperate lists, one of the form
+3n, the next of 3n+1, the next of 3n+2. It would then sort from lowest to highest
+in the 3n list add that the the sorted list and then repeat that process for the
+3n+1 list and then the 3n+2 list.
