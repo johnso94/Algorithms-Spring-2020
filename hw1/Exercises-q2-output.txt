@@ -1,0 +1,8 @@
+5
+ Total cycles: 208
+7
+ Total cycles: 224
+100
+ Total cycles: 1196
+35
+ Total cycles: 1076
