@@ -1,0 +1,5 @@
+To review assembly language, I went back to the labs I had last semester in
+Hardware Design and read through them. In addition to this, I opened some of
+the old example assembly codes and read through them making sure I could tell
+what part did what. On top of that I looked up what several of the new terms
+meant, since it seems like assembly code from c++ is different than c.
