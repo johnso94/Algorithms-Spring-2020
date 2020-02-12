@@ -1,0 +1,4 @@
+#1. dividing with a latency of 20-80 is the highest
+#2. We see higher latency and reciprocal throughput when we move between registers and memory.
+#3. The reciprocal throughput is lower because, if the computer doesn't need to wait
+for a response it is more efficient and can process multiple things at once.
