@@ -1,0 +1,2 @@
+The most time consuming part is the check i<500 since that is repeated 500 times
+and has a higher latency than the other steps which are repeated 500 times.

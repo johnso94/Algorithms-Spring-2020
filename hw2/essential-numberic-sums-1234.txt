@@ -1,0 +1,7 @@
+1. The sum is (n+1)n/2
+2. This comes from the fact that 1+2+...+n can be rewritten as
+(1+n) + (2+n-1) +... which gives n/2 terms of 1+n resulting in 
+(n+1)n/2
+3. The sum is going to be approximately 5^n.
+4. This is because each value increases so quickly that the ^n will be close to
+5*the previous value
