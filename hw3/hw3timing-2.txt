@@ -1,0 +1,7 @@
+I got snippet one and when I ran it, I ended up with 208 cycles.
+This was much lower than my initial estimate of 700. Looking back,
+it seems that I made a mistake on the addition which was only a reciprocal
+throughput but this would only lower it by about 70. The other error
+that I could see is that I did not properly know how many cycles a jump
+or moving from register to memory takes as both of these added a lot to
+the number of cycles.
