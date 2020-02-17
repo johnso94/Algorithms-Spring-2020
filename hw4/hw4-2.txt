@@ -1,0 +1,5 @@
+I got problem 6 which had 4904910 cycles This is almost 10 times
+the number of cycles which I predicted. Some of the error may have
+come from the fact that I only considered what happened in the k loop
+to be important and neglected everything else though I do not believe
+that that would lead to a factor of 10. 
