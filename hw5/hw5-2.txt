@@ -1,0 +1,16 @@
+1. You have two cycles per incrementation plus 1 for the trig function since
+it is calculating the same thing and therefore just uses memory to check
+3n
+
+2. This will be 3 cycles plus the cost of a trig function times n.
+
+3. This will take 3 cycles for the first loop happening n times and 5 cycles
+for the second loop happening n^2/3 times
+3n + 5n^2/3
+
+4.
+
+5. This will take 2n + 2n^2 + 2n^3 for the two cycles in each iteration.
+
+6. This will be n iterations and 4 cycles per iteration so
+4n

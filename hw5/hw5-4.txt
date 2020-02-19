@@ -1,0 +1,2 @@
+I did number 2 and the code for this gave 8156 cycles and the equation I made would have given
+8*2^(Log2(100)+1)=8*124=992. This is pretty low

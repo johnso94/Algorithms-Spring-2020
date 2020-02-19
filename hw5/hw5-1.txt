@@ -1,0 +1,24 @@
+Part A:
+
+1. We would expect 9.74n + 2 since there are two guaranteed cycles, so everything else must be times n.
+2. There are n^2/2 iterations so each iterations take 7 seconds so the number of cycles is 7/2 n^2
+3. There are n/2(n+1) iteration so each iteration takes 322 cycles so the number of cycles is 322n/2(n+1).
+4. There are n^2 iterations so each iteration takes 190.7 cycles so there are 190n^2 cycles.
+5. There are 3/2(n/3)(n/3 + 1) iterations so each iteration takes 233.5 cycles so that are 233 (3/2(n/3)(n/3 + 1))cycles
+6. There are n^3/2 iterations so each iteration takes 242.2 cycles so there are 242.2 n^3 /2 cycles
+7. Based on the work from last week there are 2/3 *(2n(n/2+1)n/4) iterations so there are
+210.4 cycles per iteration so there are 210/3*n^2(n/2+1) cycles
+8. There are 2/3 *2n(n/4+1)n/8) iterations so there are 334 cycles per iteration so there
+are 334 /6 * n^2(n/4+1) cycles
+
+Part B:
+
+1. This will have 100 iterations and take 6 cycles per iteration so 600 cycles.
+2. The first iteration will take 9 cycles and the following 7 cycles will take 7 cycles
+giving us 58 cycles
+3. The first iteration will take 38 cycles and the following 4 cycles will take 25 cycles
+giving us 213 cycles
+4. There will be 7+3n for each iteration so for the 8 iteration we have 647 cycles
+5. There will be (100x+50x+25x+12x+6x+3x+1x) where x is 1+2+...+whatever precedes x in the j loop
+and each cycle of the j loop will take 5 cycles so will have about 2889780 cycles
+6. 

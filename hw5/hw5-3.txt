@@ -1,0 +1,14 @@
+1. This will have (Log2(n)+1) iterations with 6 cycles per iteration
+6 Log2(n)
+
+2. This will have 2^(Log2(n)) iterations with 8 cycles per iteration
+8 * 2^(Log2(n))
+
+3. THis will have 3^(Log2(n))iterations with 10 cycles per iteration
+10*3^(Log2(n))
+
+4. This will have 4^(Log3(n)) iterations with 35 cycles per iteration.
+35*4^{Log3(n)}.
+
+5. This will have 2^n iterations with 6 cycles per iteration
+6*2^n
