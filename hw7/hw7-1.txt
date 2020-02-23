@@ -1,0 +1,29 @@
+I am partnered with Jackson and Will.
+
+Array arr = {everything in the array};
+Vector<int> vec = {arr[0]};
+for i =1 to length of array:
+	For j = 0 to length of vector:
+		Compare arr[i] to vector[j]
+		If vector[j] > arr[i]:
+			Put arr[i] at vector[j-1]
+			Break
+	If j = length of vector:
+		Put arr[i] at end
+For i : vec
+	Arr[i] = vec[i]
+
+saying that n is the length of the array
+assuming that the j for loop runs the full number of times each time, 
+say if it was already in the original order, we would get
+1+2+3+...+n which would be n(n+1)/2 iterations. There are 3 cycles for each
+of these iterations and 4 cycles which happen n times due to what happens in
+the i loops and the adding to j. So overall we have 3(n(n+1)/2) + 4n cycles.
+
+Refining the Analysis:
+For n=5, our code took around 200000 cycles. This is far larger than
+3(5(5+1)/2) + 4(5) = 65. We were off by an order of ten thousand. This
+is probably because we did not correctly account for how many cycles
+the vector functions require. V.push_back, v.size, v.insert, and v.begin
+probably take far more cycles than we estimated, but we don’t know exactly
+how many.
