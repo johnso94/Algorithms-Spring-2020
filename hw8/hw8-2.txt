@@ -1,0 +1,26 @@
+1. Clearly 500n + 500 <= cn if n>=1 and c = 501 so 500n+500=0(n).
+
+2. Let c be any integer We will prove this by contradiction. Assume 2n^2 + 1000 <= cn.
+Let n > c. Then 2n^2 + 1000 > 2n^2 > n^2 >nc, a contradiction as desired.
+
+3. Does the O with a thing in the middle just mean that f(n) = g(n)?
+
+More Essential Definitions:
+1. If c = 1 then, clearly, 500n + 500 >= c(n+1)
+
+2. no matter what value of c is tried, if we let n > 1000/c, 500n + 500 < c (n^2)
+
+3. we already know that 500n + 500 = 0(n) and its clear that, if c = 1 that 500n +500 >= cn
+so 500n + 500 = Sigma(n) so 500n + 500 = Omega(n) as desired.
+
+4. It will suffice to show that 2n^2 + 1000 != Sigma(n). Let c be any integer. We will prove this by contradiction.
+Assume 2n^2 + 1000 <= cn. Let n > c. Then 2n^2 + 1000 > 2n^2 > n^2 >nc, a contradiction as desired.
+
+.2
+a. This is a geometric sum which will always be greater than 1 and less than some constant so
+if r is greater than that constant 1+c+...+c^n < r and if r = 1, 1+c+...+c^n >=1 so g(n)=Omega(1)
+
+b. This is just equal to n so if r=1 then n=rn so g(n)=Omega(n)
+
+c. In this case, g(n) is a geometric sum which will go to (c^(n+1)-1)/(c-1) so if r>c/(c-1) then
+(c^(n+1)-1)/(c-1) < rc^n and if r = (1-1/(c^n))/c then (c^(n+1)-1)/(c-1) > rc^n so g(n)=Omega(c^n)

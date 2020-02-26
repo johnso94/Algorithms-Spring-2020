@@ -1,0 +1,12 @@
+1. B will run the fastest because its base cose outside of n is the smallest so, assuming n is small
+and doesn't have much impact, the small base cost will make it the smallest
+
+2. A will run fastet because it does not scale with n^2 so it will only increase linearly as the
+others increase quadradically.
+
+3. The first one because it is probably the simplest to understand. The fact that it only has a base cost and
+a complexity of n means that if you wanted to take the program further, it would work best.
+
+4. The complexity shouldn't change unless one of the methods used in one of the algorithms just doesn't exist
+or fundamentally works didfferently. The base numbers themselves, we would expect to change by a bit but the new
+number will probably be related to the old number.

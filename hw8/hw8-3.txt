@@ -1,0 +1,8 @@
+1. if g(n) = n then no matter what r is, if you make n sufficiently large then f(n) > rn, but if r
+is 1 then g(n) <= r f(n) for all n>=1, so g(n) equals O(f(n)) but not Sigma(f(n))
+
+2. if g(n) = 2n^3 + 1000 then no matter what r is, if you make n sufficiently large then 2n^3+1000 > r(2n^2+1000), but if r
+is 1 then g(n) <= r f(n) for all n>=1, so g(n) equals Sigma(f(n)) but not O(f(n))
+
+3. g(n) = n^2, pretty clearly there can be an r such that n^2 >= r(f(n)) and an r such taht n^2 >= r(f(n)), so
+g = Theta(f)
