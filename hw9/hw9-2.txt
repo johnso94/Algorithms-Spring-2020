@@ -1,0 +1,30 @@
+1. for base two the largest you can get is 1+1+1 = 11 which is only two digits and
+for any base higher than two, you will get further and further away from getting 3 digits
+because the number the second digit needs to be at to go to the third digit, is constantly increasing
+
+2. 
+
+3. n log n <= log(n^2) so it suffices to show that n! <= c n^n. This will be true for any c > 1 because
+n is greater than everything below n so n times itself n times will be greater than n times things less
+than n n times. Obviously n! >= (n/2)^n/2 since the first half of n! will be numbers greater than n/2 
+multiplied by each other n/2 times.
+
+4. It works because the concept of taking 2^n * 1 or 0 works exactly the same as taking 10^n * 1,2,3,...,8,9
+for getting the place and the value at that place.
+
+5. It works based on the logic of frade-school multiplication and it on the order of n^2 because it goes through
+something of order n, n times.
+
+6. since N divides x - x' and y - y' it should be clear that N divides (x - x')+(y - y') and therefor divides
+(x+y)-(x'+y') which is what we need for both of  the substitution and multiplication rules.
+
+7. 4^6 is congruent to 1 mod 35 and 9^6 so (4^6)^256->1 and (9^6)^804->1 and clearly
+1 is congruent to 1 mod 35 so it is divisible by 35
+
+8. 
+
+9. Considering that reculsive will do the multiplication mn times and iterative will take only m times, It is pretty
+clear that the iterative funciton is faster
+
+10. 210 = 7*5*3*2 and 588 = 2*2*7*7*3 so the gcd is 42. I have a program which uses Euclids Algorithm to calculate
+the gcd and it gave the same result. The file is included

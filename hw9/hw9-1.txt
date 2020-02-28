@@ -1,0 +1,17 @@
+1. This is true. To prove this we must show that there is a c>0 such that 18n^3>= c 500n^2
+let c =18/500. Then the equation becomes 18n^3 >= 18n^2 -> n>=1 which we know to be true so
+for c =18/500, 18n^3>= c 500n^2 as desired.
+
+2. This is false. To prove this we must show that no matter what c is, for some n, 2n logn > c n.
+let c be any positive value. Let n = 10^c. Then the equation goes to 2n log10^c > c n ->
+2c > c which we know to be true because c is a positive value so no matter what c is, for some n,
+2n logn > c n, as desired
+
+3. This is true. Since f(n) = O(g(n)), we know that there is some positive value c such that f(n) <= c g(n) and
+so, since c can be any value we can guarantee 2*f(n) <= c g(n) by setting c to twice the value it
+was in the original proof which we can do because c can be any positive value and so there is no limit
+on it.
+
+4.  This is false. We will disprove this with the example f(n) = n^2, g(n) = n^3. If we let c = 1, then we have 
+n^2 <= n^3 -> 1 <= n which we know to be true so f(n) = O(g(n)). However, even if we let n be any integer and take
+n > c, we can see that n^3 <=c n^2 -> n <= c is false because we know that n > c, therefore g(n) != O(f(n)) as desired.
