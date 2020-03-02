@@ -1,0 +1,10 @@
+        f(12)   +
+          /\
+       f(2) f(2)  ++
+      / \   / \
+  f(0) f(0) f(0) f(0) ++++
+In the case of n=12 we have 7 plusses.
+In general, we have 1+2+2^2+...+2^(log5(n)+1).
+This comes out to 2^(log5(n)+2)-1 = 4n^log5(2)-1
+
+The number of recursive calls would be (a^(logb(n)+2)-1)/(a-1) = (a^2)(n^logb(n)-1)/(a-1)
