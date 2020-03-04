@@ -1,0 +1,9 @@
+A. Yes because if c=1 is, then it is clear that, for all natural numbers n, n^2.5 <= (1) n^3,
+as desired.
+
+B. No because if whatever c is, if you choose n such that Sqrt[n] > c then, clearly 
+n^2.5 * Sqrt[n] > n^2.5 * c -> n^3 > c * n^2.5 meaning that n^3 !<= c * n^2.5, as desired.
+
+C. Yes, because if f(n) = Omega(g(n)), that implies there exists a positive value c1 such that
+f(n) >= c1 g(n). Furthermore, we know that there exists a positive value c2 = c1/2. Thus, since 
+f(n) >= c1 g(n) -> f(n) >= c1/2 2g(n) -> f(n) >= c2 2g(n)-> f(n) + 1000 >= c2 2g(n) as desired.

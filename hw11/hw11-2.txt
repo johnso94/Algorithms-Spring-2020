@@ -1,0 +1,14 @@
+2.1  this equals 10000000 * (1001 * 1011) + 00010000 * (1011 * 1011) + 00010000 * (1001 * 1010)
++ (1011 * 1010) = 110001100000000 + 11111110000 + 10110100000 + 1100011 = 111000011110011
+
+2.12  This will happen 2^(number of branches) and the number of branches is log2(n) giving
+an answer of n times.
+
+2.4  A. O(5^Log2(n))=O(n^Log2(50))
+B. O(n)
+C. O((n^2)^(Log3(9))=n^4
+I would choose A because that is clearly the smallest order.
+
+2.19  This would be O(n*k)
+It would be faster to break k up into arrays of size 1 and sort them using the mergesort we designed
+in a past homework.
