@@ -1,0 +1,20 @@
+2.5 
+a. T(n) = Theta(n^log3(2))
+b. T(n) = Theta(n^log4(5))
+c. T(n) = Theta(n)
+d. T(n) = Theta(n^2)
+e. T(n) = Theta(n^3)
+f. T(n) = Theta(n^3/2 Logn)
+g. T(n) = Theta(n)
+h. T(n) = Theta(n^c)
+i. T(n) = Theta(c^n)
+j. T(n) = Theta(n^2)
+k. T(n) = Theta(Log2(n))
+
+2.16
+The Binary search would accomplish this since every single search you are cutting the remaining
+options in half.
+
+2.17
+You would use a binary search comparing the indices with the value at those indice. If the value
+is lower than the index, you move down. If the value is higher you move up.
