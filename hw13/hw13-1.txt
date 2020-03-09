@@ -1,0 +1,21 @@
+3.1 A, AB, ABC, ABCF, ABCFE, ABCF, ABCFI
+A-B: Tree, B-C:Tree, C-F:Tree, F-E: Tree, EA: Back, E-B: Back, E-C: Back, F-I Tree
+A:0,1; B:1,2; C: 2,3; F:3,6; E:4,5; I: 6
+
+3.2: a. A, AB, ABC, ABCD, ABCDH, ABCDHG, ADBDHGF, ABCDHGFE
+AB: Tree, BC:T, CD: T, DH:T, HG,:T, GF: T, FE:T, DB: T, EG, B, ED: BC
+A:1,2; B,2,3; C:3,4; D: 4,5; H:5,6; G: 6,7; F: 7,8, E: 8
+b. A-B:T, B-F:T, F-C:T, F-D:T, F-E:T, A-H:T, H-G:Tree
+A:0,1; B:1,2; F: 2,3; C:3,4; D:4,5; E:5,6; H:6,7; G:7,8
+
+3.3 a. A:0,1 ; C:1,10; D: 2,9; F: 3,8;G:4,5; H:6,7; E: 10
+b. Sources: A,B Sinks: G,H
+c.A-G, A-H, B-G, G-H
+d. 4
+
+3.5 Since all of the same points should still be connected, it should be as simple changing
+the read order so that instead of putting column1 in list1 and column2 in list2 you do the reverse
+
+3.11 YOu use the dfs designed in hw13-dfs.cpp but modify it so that, instead of looking for
+a particular value, you are checking if the previous value and current value match the edge that
+you're looking for
