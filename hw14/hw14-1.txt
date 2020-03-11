@@ -1,0 +1,16 @@
+Yes f(n) is necessarilly theta(g(n)). Because g(n) = O(f(n)), there must be some c1 such that 
+g(n) <= c1f(n) for all natural numbers n. Following this, there must be some c2 = 1/c1, such
+that c2 g(n) <= f(n) for all natural numbers n. But this is the condition for f(n) = Omega(g(n))
+so we know that f(n) = Omega(g(n)). In addition, because we were told that f(n) = O(g(n)), we know
+that f(n) must be theta(g(n)).
+
+3.6 a. An edge is, by definition, something which connects two vertices and is incident upon both of them
+so the number of incidents, following this definition of edges, must necessarily be 2|E|.
+
+b. We know from a that the total number of incidencs is even. The total degree of vertices with even
+degrees will be even and the sum total, which must be even, is equal to the evens plus the odds so
+the odd vertices must have an even number of degrees. But this would only happen if there are an odd
+number of vertices with odd degrees is even, so that is the case, as desired.
+
+c. No, because the sum degree of the graph is just |E| which can be either odd or even and, if its odd
+that would mean that we have an odd number of vertices whose degree is odd

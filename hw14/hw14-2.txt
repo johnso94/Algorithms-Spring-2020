@@ -1,0 +1,2 @@
+Adding: 20 took 124142 cycles, 1000 took 1.39e7, and 1000000 took 6.68e9
+For adding it does not seem like it is on order n but something slightly less
