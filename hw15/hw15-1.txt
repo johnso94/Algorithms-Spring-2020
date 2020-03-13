@@ -1,0 +1,11 @@
+3.12 I will prove this. In this situation where they are connected by an edge in an undirected
+graph, then they must be a part of the same branch. This means that one will come before the other
+and, since v is left after u, it must be that v is lower in the stack and thus an ancestor of u.
+
+3.9 For each vertice, go to the enty of that vertice in the adjacency list and, for each 1 in
+that section go to the entry corresponding to that 1 and count up the number of 1's in it. 
+
+3.23 Start at G, go to each vertice connected to G and see if any of they are s. Repeat this
+for those vertices until you reach s. At this point, use a recursive function which travels down
+the path from s keeping track of the each of the trees from s. have the trees stop when they reach
+t or can go no further. count up the number of trees which end in t. return that
