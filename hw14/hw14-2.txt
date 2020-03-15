@@ -1,2 +1,12 @@
 Adding: 20 took 124142 cycles, 1000 took 1.39e7, and 1000000 took 6.68e9
-For adding it does not seem like it is on order n but something slightly less
+For adding it does not seem like it is greater than order n
+
+Doubling: 20 took 3800 cycles, 1000 took 52976 cycles, and 1000000 took 1.80352e7 cycles.
+For doubling it seems to increase much less quickly than for adding. It also seems like it
+is on order n
+
+Linked: 20 took 2081 cycles, 1000 took 36740 cycles, and 1000000 took 3.765e7 cycles.
+For linked, it seems like the growth in cycles is linear.
+
+Stack: 20 took 3076 cycles, 1000 took 67390 cycles, and 1000000 took 9.59 e7 cycles.
+For linked, it seems like the growth in cycles is fairly linear but a bit faster.
